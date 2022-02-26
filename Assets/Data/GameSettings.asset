@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af07caf19f0a4f49955fb23e6c96d72, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  _playerData:
+    _playerPrefab: {fileID: 7035486958833701523, guid: 0e974cb9b3d4b3842a2a451f235cb143, type: 3}
+    _maxHp: 10
+    _damageTakenByClick: 1
+    _speed: 3
+  _mapData:
+    _basePrefab: {fileID: 4606084130840176844, guid: 07837f577694d30418efee42c56825f5, type: 3}
+    _patrolPointPrefab: {fileID: 2298317324570041144, guid: ab74f66cfdc62ea4d9c4af073d11915e, type: 3}
+    _patrolPoints: 10
+    _minRange: 1.04
